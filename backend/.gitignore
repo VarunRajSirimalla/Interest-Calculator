@@ -1,0 +1,46 @@
+# Ignore Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ignore environment variables
+.env
+.env.local
+
+# Ignore Google credentials
+credentials.json
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore test coverage
+.coverage
+htmlcov/
+
+# Ignore distribution
+dist/
+build/
+*.egg-info/
