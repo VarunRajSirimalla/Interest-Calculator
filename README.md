@@ -665,7 +665,6 @@ aspyr_project/
 │   └── .env
 ├── docs/                # Documentation
 ├── README.md
-└── AWS_DEPLOYMENT_GUIDE.md
 ```
 "# Interest-Calculator" 
 "# Interest-Calculator" 
