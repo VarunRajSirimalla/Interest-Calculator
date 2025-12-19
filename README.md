@@ -25,9 +25,9 @@ AWS (CloudFront, S3, API Gateway, EC2), Google Cloud Platform
 
 1. Create Google Sheets with 3 worksheets: Input, Calc, Output
 2. Add formulas:
-   - Calc!D1: `=Input!A1 * Input!A2 * Input!A3 / 100` (Simple Interest)
-   - Calc!D2: `=Input!A1 * ((1 + Input!A2/100)^Input!A3 - 1)` (Compound Interest)
-   - Output!A1: `=Calc!D1`, Output!A2: `=Calc!D2`
+   - Calc!C1: `=Input!B1 * Input!B2 * Input!B3 / 100` (Simple Interest)
+   - Calc!C2: `=Input!B1 * ((1 + Input!B2/100)^Input!B3 - 1)` (Compound Interest)
+   - Output!A1: `=Calc!C1`, Output!A2: `=Calc!C2`
 3. Create service account at [Google Cloud Console](https://console.cloud.google.com)
 4. Enable Google Sheets API
 5. Download `credentials.json` to backend folder
